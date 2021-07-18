@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(252, 207, 207);
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    padding: 5px 20px;
+    border: 1px transparent;
+}
+
+ul li a:hover{
+    background-color: sienna;
+    color: whitesmoke;
+}
+
+ul li.active a{
+    background-color: sienna;
+    color: whitesmoke;
+}
+
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+}
+
+.copyright p{
+    font-size: 20px;
+}
+
+.main{
+    width: 100%;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.intro h1{
+    position: absolute;
+    top: 20%;
+    margin-left: 45%;
+    text-transform: uppercase;
+}
+
+.intro p{
+    position: absolute;
+    top: 28%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content table{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 15%;
+    min-width: 800px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+caption{
+    margin-bottom: 3%;
+}
+
+th{
+    background-color: lightgrey;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+.h-strength h1{
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.container div{
+    margin-top: 3%;
+    padding: 2%;
+    box-sizing: border-box;
+    min-height: 450px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container div:hover{
+    background-color: lightgrey;
+}
+
+.left-col, .right-col{
+    width: 25%;
+    float: left;
+}
+
+.center-col{
+    width: 50%;
+    float: left;
+}
+
+.experience-skill h1{
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+.container-1, .container-2{
+    display: flex;
+    margin-top: 2.5%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+img{
+    width: 450px;
+    height: 400px;
+}
+
+.image-3 img{
+    width: 450px;
+    height: 350px;
+}
+
+.image-1, .image-2{
+    flex-basis: 40%;
+}
+
+.text-1, .text-2{
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-3, .container-4{
+    display: flex;
+    margin-top: 2.5%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.image-3, .image-4{
+    flex-basis: 40%;
+}
+
+.text-3, .text-4{
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.email-logo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 45%;
+    margin-top: 2.5%;
+}
+
+.text-box1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.home-icon img{
+    width: 120px;
+    height: 120px;
+    margin-left: 46%;
+    margin-top: 2.5%;
+}
+
+.text-box2{
+    text-align: center;
+    margin-top: 3%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
